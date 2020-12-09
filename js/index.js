@@ -7,7 +7,7 @@ import aItems from "../items/index.js";
 class Page {
     constructor(){
         this.sName = "Chantal Vaillancourt";
-        this.sUrlToEmailer = "https://secret-retreat-60319.herokuapp.com/send";
+        this.sUrlToEmailer = "";
         const sBase = document.location.pathname;
         if(sBase[sBase.length - 1] == "/"){
             this.sBase = sBase.substr(0, sBase.length -1);
@@ -111,22 +111,6 @@ class Footer extends Page {
 class Contact extends Page{
     render() {
         $("#Contact").append(`
-        <form action="${this.sUrlToEmailer}" method="POST">
-            <div class="form-group">
-                <label>Name: <input name="name" placeholder="name" class="form-control" required /></label>
-            </div>
-            <div class="form-group">
-                <!-- Add required to make the user enter something. Add type="email" to make it have an @ symbol-->
-                <label>Email:<input name="email" placeholder="email" type="email" class="form-control"
-                        required /></label>
-            </div>
-            <div class="form-group">
-                <label>Message:<textarea name="message" placeholder="type your message here" class="form-control"
-                        required></textarea></label>
-            </div>
-            <button type="submit">Send Message</button>
-
-        </form>    
         `);
     }
 
