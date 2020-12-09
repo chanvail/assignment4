@@ -58,3 +58,7 @@ body > img {
     max-width: 100px;
     height: auto;
   }
+
+.container{
+    margin: 10px;
+}

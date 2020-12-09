@@ -7,7 +7,7 @@ import aItems from "../items/index.js";
 class Page {
     constructor(){
         this.sName = "Chantal Vaillancourt";
-        this.sUrlToEmailer = "";
+        this.sUrlToEmailer = "https://secret-retreat-60319.herokuapp.com/send";
         const sBase = document.location.pathname;
         if(sBase[sBase.length - 1] == "/"){
             this.sBase = sBase.substr(0, sBase.length -1);
@@ -119,6 +119,15 @@ class Contact extends Page{
                 <!-- Add required to make the user enter something. Add type="email" to make it have an @ symbol-->
                 <label>Email:<input name="email" placeholder="email" type="email" class="form-control"
                         required /></label>
+            </div>
+            <div class="form-group">
+                <!-- Add required to make the user enter something. Add type="email" to make it have an @ symbol-->
+                <label>Subject:<select id="cars" name="cars">
+                <option value="Consulting">Consulting</option>
+                <option value="Logo Design">Logo Design</option>
+                <option value="Website Design">Website Design</option>
+                <option value="UX Research">UX Research</option>
+              </select></label>
             </div>
             <div class="form-group">
                 <label>Message:<textarea name="message" placeholder="type your message here" class="form-control"
