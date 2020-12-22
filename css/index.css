@@ -7,6 +7,14 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     margin-right: 0;
 }
 
+body > nav > div > div.navbar-collapse.collapse > ul{
+    align-items: right;
+}
+
+body > nav > div > div.navbar-collapse.collapse{
+    align-: right;
+}
+
 section#itemsInner{
     display: flex;
     overflow-x: auto;
@@ -118,8 +126,10 @@ body > div {
 }
 
 body > div.buttons {
-    width: 50;
+    width: 400;
     margin: auto;
+    height: auto;
+    margin-bottom: 70;
     background-color: transparent;
 }
 
@@ -196,8 +206,8 @@ body > nav > div > div.navbar-header {
 
 body > nav > div > div.navbar-collapse.collapse {
     display:inline-block;
-    align-items: left;
-} 
+    padding-left: 55%;
+}  
 
 body > p2 > button:nth-child(1) > a{
     color: white;
