@@ -130,9 +130,9 @@ html {
     
     body > div {
         background-color: #d2eeec;
-        margin-top: 5%;
+        margin-top: 3%;
         margin-bottom: 5%;
-        height: 50%;
+        height: 55%;
         padding-left: 15;
         padding-right: 15;
         width: auto;
@@ -257,7 +257,40 @@ html {
     display: inline-block;
     }
 
-    body > footer{
+    #btnn1 {
+        background: white;
+        color: black;
+        text-decoration: none;
+        size:;
+    }
+
+    #btnn2 {
+        background: white;
+        color: black;
+        text-decoration: none;
+        width: 400;
+    }
+
+    #btnn3 {
+        background: white;
+        color: black;
+        text-decoration: none;
+        size:;
+    }
+
+    #btnn4 {
+        background: white;
+        color: black;
+        text-decoration: none;
+        vertical-align: middle;
+    }
+
+    body > div > article:nth-child(3){
+        margin: 60;
+        margin-top: 40;
+    }
+
+    body > div > footer {
         background: #37182E;
         color: white;
         height: 20;

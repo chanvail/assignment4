@@ -130,8 +130,8 @@ html {
     
     body > div {
         background-color: #d2eeec;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin-top: 2%;
+        margin-bottom: 2%;
         height: 50%;
         padding-left: 15;
         padding-right: 15;
@@ -140,20 +140,13 @@ html {
     
     body > div > h1{
         text-align: left;
-        margin-bottom: 20;
-        margin-left: 50;
-        padding-top: 20;
+        margin-bottom: 0;
+        margin-left: 20;
+        padding-top: 5;
         font-size: 40;
         text-align: left
     }
     
-    body > div > p:nth-child(2) {
-        text-align: center;
-        margin-top: 10;
-        padding-bottom: 10;
-        font-size: 30;
-        
-    }
     
     body > div > button > a {
         background-color: #37182E;
@@ -257,8 +250,56 @@ html {
     display: inline-block;
     }
 
+    body > div > p{
+        text-align: left;
+        size: 20;
+        margin-left: 22;
+        margin-top: 0;
+        margin-bottom: 20;
+    }
+
     body > footer{
         background: #37182E;
         color: white;
         height: 20;
+    }
+
+    #Contact > form > div:nth-child(1) {
+        padding: 10;
+    }
+
+    #Contact > form > div:nth-child(1) > label > input {
+        margin-left: 29;
+    }
+
+    #Contact > form > div:nth-child(2) {
+        padding: 10;
+    }
+
+    #Contact > form > div:nth-child(2) > label > input {
+        margin-left: 38;
+    }
+
+    #Contact > form > div:nth-child(3) {
+        padding: 10;
+    }
+
+    #cars {
+        margin-left: 22;
+    }
+
+    #Contact > form > div:nth-child(4) {
+        padding: 10;
+    }
+
+    #Contact > form > div:nth-child(4) > label > textarea {
+        margin-left: 11;
+    }
+
+    #Contact > form > button{
+        margin-top: 20;
+    }
+
+    body > div > h1 > p{
+        margin-bottom: 10;
     }

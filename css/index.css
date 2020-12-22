@@ -75,6 +75,11 @@ body > nav > div > div.navbar-header > a {
     text-decoration: none;
 }
 
+body > nav > div > div.navbar-collapse.collapse{
+    float: inline-end;
+    
+}
+
 body > nav > div > div.navbar-collapse.collapse > ul > a:nth-child(1){
     color: white;
     text-decoration: none;
@@ -112,6 +117,12 @@ body > div {
     height: 200;
 }
 
+body > div.buttons {
+    width: 50;
+    margin: auto;
+    background-color: transparent;
+}
+
 body > div > h1{
     text-align: center;
     margin-bottom: 5;
@@ -128,7 +139,7 @@ body > div > p:nth-child(2){
     
 }
 
-body > p2 > button:nth-child(1){
+body > div.buttons > a:nth-child(1){
     background-color: #37182E;
     color: white;
     font-size: 20;
@@ -138,10 +149,12 @@ body > p2 > button:nth-child(1){
     padding-right: 20;
     margin: 12;
     width: auto;
+    display: inline-block;
+    text-decoration: none;
     
 }
 
-body > p2 > button:nth-child(2){
+body > div.buttons > a:nth-child(2){
     background-color: #37182E;
     color: white;
     font-size: 20;
@@ -151,9 +164,11 @@ body > p2 > button:nth-child(2){
     padding-right: 20;
     margin: 12;
     width: auto;
+    display: inline-block;
+    text-decoration: none;
 }
 
-body > p2 > button:nth-child(3){
+body > div.buttons > a:nth-child(3){
     background-color: #37182E;
     color: white;
     font-size: 20;
@@ -162,7 +177,8 @@ body > p2 > button:nth-child(3){
     padding-left: 20;
     padding-right: 20;
     margin: 12;
-    width: auto;
+    display: inline-block;
+    text-decoration: none;
 }
 
 body > p2 {
@@ -220,9 +236,8 @@ body > p2 > button:nth-child(3) > a {
     width: auto; 
 }
 
-body > div3 {
-    background-color: #d2eeec;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    height: 200; 
+body > footer{
+    background: #37182E;
+    color: white;
+    height: 20;
 }
