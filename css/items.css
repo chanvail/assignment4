@@ -22,6 +22,7 @@ html {
     body > nav > div > div.navbar-header > a {
         color: white;
         text-decoration: none;
+        font-size: 25;
     }
     
     body > nav > div > div.navbar-collapse.collapse{
@@ -39,7 +40,6 @@ html {
         text-decoration: none;
         padding: 40;
     }
-    
     
     body > nav > div > div.navbar-collapse.collapse > ul > a:nth-child(3){
         color: white;
@@ -70,9 +70,12 @@ html {
         background-color: #d2eeec;
         margin-top: 5%;
         margin-bottom: 5%;
-        height: 115%;
+        position: relative;
+        height: auto;
+        min-height: 100%;
         padding-left: 15;
         padding-right: 15;
+        padding-bottom: 15;
         width: auto;
     }
 
@@ -93,7 +96,7 @@ html {
         background: #37182E;
         color: white;
         height: 20;
-        margin-top: 17%;
+        margin-top: 22%;
     }
 
     body > div > div > img {
@@ -106,6 +109,7 @@ html {
 
     body > div > div > p:nth-child(2) {
         margin-left: 300;
+        margin-right: 300;
     }
 
     body > div > h1{
@@ -114,9 +118,60 @@ html {
 
     body > div > div > p:nth-child(4){
         margin-left: 300;
+        margin-right: 300;
     }
 
     body > div > div > h2{
         margin-left: 280;
         padding: 10;
     }
+
+    body > div > div > p:nth-child(3) > img{
+        max-width: 400px;
+        height: auto;
+        display: inline-block;
+        margin-left: ;
+        float: left;
+    }
+
+    body > div > div > h2:nth-child(4){
+        display: inline-block;
+        margin-left: 30;
+        float: left;
+    }
+
+    body > div > div > p.myangle{
+        margin-right: 300;
+        margin-left: 500;
+    }
+
+    body > div > div > h2:nth-child(7){
+        margin-left: 0;
+    }
+
+    body > footer{ 
+        background: #37182E;
+        color: white;
+        height: 20;
+        margin-top: 3
+    }
+
+    body > div > div > p{
+        margin-right: 200;
+        margin-left: 50; 
+    }
+
+    body > div > div > div > img{
+        width: 400;
+        height: auto;
+        float: left;
+        display: inline-block;
+        margin-left: 50;
+        margin-top: 80;
+    }
+
+    body > div > div > h1{
+        margin-left: 500;
+    }
+
+    

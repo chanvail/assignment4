@@ -119,6 +119,7 @@ html {
         padding: 10;
         margin: 10;
         text-align: left;  
+        font-size: 25;
     }
     
     body > nav > div > div.navbar-header {

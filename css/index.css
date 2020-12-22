@@ -81,6 +81,7 @@ body > nav {
 body > nav > div > div.navbar-header > a {
     color: white;
     text-decoration: none;
+    font-size: 25;
 }
 
 body > nav > div > div.navbar-collapse.collapse{
