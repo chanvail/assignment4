@@ -70,7 +70,7 @@ html {
         background-color: #d2eeec;
         margin-top: 5%;
         margin-bottom: 5%;
-        height: 70%;
+        height: 115%;
         padding-left: 15;
         padding-right: 15;
         width: auto;
@@ -89,10 +89,11 @@ html {
         padding-left: 55%;
     } 
 
-    body > footer{
+    body > div > footer{
         background: #37182E;
         color: white;
         height: 20;
+        margin-top: 17%;
     }
 
     body > div > div > img {
@@ -109,4 +110,13 @@ html {
 
     body > div > h1{
         padding-top: 20;
+    }
+
+    body > div > div > p:nth-child(4){
+        margin-left: 300;
+    }
+
+    body > div > div > h2{
+        margin-left: 280;
+        padding: 10;
     }
