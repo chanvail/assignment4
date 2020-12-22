@@ -160,11 +160,15 @@ class Nav extends Page {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Portfolio of ${this.sName}</a>
+                <a class="navbar-brand" href="">Portfolio of ${this.sName}</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    ${sMenu}
+                    <a class="button" href="portfolio.html">Portfolio</a>
+                    <a class="button" href="about.html">About</a>
+                    <a class="button" href="contact.html">Contact</a>
+                    </ul>
+                </div>
                 </ul>
             </div>
 

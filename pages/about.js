@@ -110,7 +110,7 @@ class Footer extends Page {
 
 class Contact extends Page{
     render() {
-        $("#Contact").append(`   
+        $("#Contact").append(`
         `);
     }
 
@@ -135,11 +135,13 @@ class Nav extends Page {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Portfolio of ${this.sName}</a>
+                <a class="navbar-brand" href="index.html">Portfolio of ${this.sName}</a>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    ${sMenu}
+                <ul class="nav navbar-nav navbar-right">  
+                <a class="button" href="portfolio.html">Portfolio</a>
+                <a class="button" href="about.html">About</a>
+                <a class="button" href="contact.html">Contact</a>
                 </ul>
             </div>
 
