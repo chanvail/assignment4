@@ -57,7 +57,7 @@ a.left-button, a.right-button {
 }
 
 
-body > img {
+body > div3 > img {
     max-width: 100px;
     height: auto;
   }
@@ -166,6 +166,7 @@ body > p2 > button:nth-child(3){
 }
 
 body > p2 {
+    width: 400;
     margin: auto;
 }
 
@@ -217,4 +218,11 @@ body > p2 > button:nth-child(3) > a {
     padding-right: 20;
     margin: 12;
     width: auto; 
+}
+
+body > div3 {
+    background-color: #d2eeec;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 200; 
 }

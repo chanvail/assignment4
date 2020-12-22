@@ -1,0 +1,250 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+    
+    .navbar-nav.navbar-right:last-child {
+        margin-right: 0;
+    }
+    
+    section#itemsInner{
+        display: flex;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    
+    article#items{
+        position: relative;
+    }
+    
+    div.moreleft, div.moreright {
+        position: absolute;
+        height: 100%;
+        width: 2em;
+        background: rgba(255, 255, 255, .5);
+        bottom: 0;
+    }
+    
+    div.moreleft {
+        left: 0;
+    }
+    
+    div.moreright {
+        left: 0;
+    }
+    
+    .scrollleft, .scrollright {
+        position: absolute;
+        transform: scaleY(2);
+        bottom: 50%;
+        font-size: 1.2em;
+        font-weight: 100;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .scrollleft{
+        left: 0;
+    }
+    
+    .scrollright{
+        right: 0;
+    }
+    
+    a.left-button, a.right-button {
+        text-decoration: none;
+        color: rgb(60, 60, 60);
+    }
+    
+    
+    body > div > img {
+        max-width: 200px;
+        height: auto;
+        float: left;
+        display: inline-block;
+        margin-left: 50;
+    }
+
+    body > div > p:nth-child(3){ 
+        margin-top: 50;
+        margin-left: 300;
+        margin-right: 100;
+
+    }
+
+    body > div > button{
+        background-color: #37182E;
+        color: white;
+        font-size: 20;
+        border: none;
+        padding: 10;
+        padding-left: 20;
+        padding-right: 20;
+        margin: 12;
+        margin-left: 60;
+        width: auto;
+    }
+    
+    .container{
+        margin: 10px;
+    }
+    
+    body > nav {
+        background-color: #37182E;
+    }
+    
+    body > nav > div > div.navbar-header > a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    body > nav > div > div.navbar-collapse.collapse > ul > a:nth-child(1){
+        color: white;
+        text-decoration: none;
+    }
+    
+    body > nav > div > div.navbar-collapse.collapse > ul > a:nth-child(2){
+        color: white;
+        text-decoration: none;
+        padding: 40;
+    }
+    
+    
+    body > nav > div > div.navbar-collapse.collapse > ul > a:nth-child(3){
+        color: white;
+        text-decoration: none;
+    }
+    
+    body > nav > div > div.navbar-header > a{
+        padding: 10;
+        margin: 10;
+        text-align: left;  
+    }
+    
+    ul{
+    list-style-type: none;
+    padding: 10;
+    margin: 10;
+    text-align: right;
+    }
+    
+    body > div {
+        background-color: #d2eeec;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 50%;
+        padding-left: 15;
+        padding-right: 15;
+        width: auto;
+    }
+    
+    body > div > h1{
+        text-align: left;
+        margin-bottom: 20;
+        margin-left: 50;
+        padding-top: 20;
+        font-size: 40;
+        text-align: left
+    }
+    
+    body > div > p:nth-child(2) {
+        text-align: center;
+        margin-top: 10;
+        padding-bottom: 10;
+        font-size: 30;
+        
+    }
+    
+    body > div > button > a {
+        background-color: #37182E;
+        color: white;
+        font-size: 20;
+        border: none;
+        padding: 10;
+        padding-left: 20;
+        padding-right: 20;
+        margin: 12;
+        width: auto;
+        text-decoration: none;
+        
+    }
+    
+    body > p2 > button:nth-child(2){
+        background-color: #37182E;
+        color: white;
+        font-size: 20;
+        border: none;
+        padding: 10;
+        padding-left: 20;
+        padding-right: 20;
+        margin: 12;
+        width: auto;
+    }
+    
+    body > p2 > button:nth-child(3){
+        background-color: #37182E;
+        color: white;
+        font-size: 20;
+        border: none;
+        padding: 10;
+        padding-left: 20;
+        padding-right: 20;
+        margin: 12;
+        width: auto;
+    }
+    
+    body > p2 {
+        width: 400;
+        margin: auto;
+    }
+    
+    body > nav {
+        padding: 30;
+    }
+    
+    body > nav > div > div.navbar-header {
+        display:inline-block;
+    } 
+    
+    body > nav > div > div.navbar-collapse.collapse {
+        display:inline-block;
+        align-items: left;
+    } 
+    
+    body > p2 > button:nth-child(1) > a{
+        color: white;
+        font-size: 20;
+        text-decoration: none;
+        border: none;
+        padding: 10;
+        padding-left: 20;
+        padding-right: 20;
+        margin: 12;
+        width: auto; 
+        
+    }
+    
+    body > p2 > button:nth-child(2) > a{
+        color: white;
+        font-size: 20;
+        text-decoration: none;
+        border: none;
+        padding: 10;
+        padding-left: 20;
+        padding-right: 20;
+        margin: 12;
+        width: auto; 
+    }
+    
+    body > p2 > button:nth-child(3) > a {
+        color: white;
+        font-size: 20;
+        text-decoration: none;
+        border: none;
+        padding: 10;
+        padding-left: 20;
+        padding-right: 20;
+        margin: 12;
+        width: auto; 
+    }
+    
